@@ -28,9 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#curvedshape {
-  margin-top: -150px;
-}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1193,4 +1191,34 @@ section {
   width: fit-content;
   color: white;
   font-weight: 600;
+}
+.dwnld-btn:hover{
+  border: 2px solid #ffb728;
+  border-radius: 30px;
+  padding: 6px 19px;
+  background: #ffffff;
+  width: fit-content;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+
+@media only screen and (min-width: 768px){
+  .card{
+    width: 70%;
+  }
+}
+video {
+  
+  width: 430px;
+  height: auto;
+}
+
+.web-img img{
+  width: 400px;
+  height: auto;
+}
+
+.web-img{
+  padding-bottom: 3rem;
 }
